@@ -29,7 +29,7 @@ echo $USER
 
 5. Execute this script anytime you need to interact with you EC2 instances! (Remember to be on VPN)
 
-** Syntax:  manageaws.sh start|stop|status|connect <Instance Tag> [region] **
+**Syntax:  manageaws.sh start|stop|status|connect <Instance Tag> [region]**
 
 ```sh
 manageaws.sh status aromero-bastion us-east-2
