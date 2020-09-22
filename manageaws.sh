@@ -16,7 +16,7 @@ if [ $# -eq 0 ] || [ "$1" == "--help" ] || [ "$1" == "-h" ] || [ "$1" == "help" 
     exit 1
 fi
 
-virtualenv it-aws > /dev/null
+python3 -m venv it-aws
 source it-aws/bin/activate
 kinit ${USER}@REDHAT.COM
 
